@@ -1,0 +1,307 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* Reset de estilos padrão */
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #5A5697;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100vw;
+    text-align: center;
+    border-bottom: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 23px;
+    color: white;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+}
+
+/* Estilo do botão no cabeçalho do cliente */
+#header-cliente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-cliente button {
+    width: auto;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.header-registro h1 {
+    font-size: 20px;
+}
+
+.header-registro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-cliente h1 {
+    font-size: 20px;
+}
+
+.header-registro button {
+    width: auto;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* Estilo do texto de logo */
+.texto-logos {
+    height: 30vh;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Estilo dos botões */
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: #5A5697;
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 17px;
+    margin: 15px 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #4e4b8c;
+    color: white;
+}
+
+/* Estilo do rodapé */
+footer {
+    width: 100vw;
+    height: 30px;
+    border-top: solid 1px white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilo do formulário */
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background: #4e4b8c;
+    border-radius: 10px;
+}
+
+/* Estilo dos inputs do formulário */
+.inputs {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+    color: #5A5697;
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 32px;
+    border-radius: 17px;
+    margin: 8px 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+}
+
+/* Estilo do botão de acessar */
+#acessar:hover {
+    background-color: #5A5697;
+    color: white;
+    border: solid 1px #1e1789;
+}
+
+#acessar {
+    font-weight: bold;
+}
+
+/* Estilo das seções */
+.comprar-codigo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-dados {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+}
+
+/* Estilo das labels */
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Estilo das seções de clientes */
+.lista-clientes, .lista-codigos {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-clientes h2, .lista-codigos h2 {
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Estilo do link na lista de clientes */
+.lista-clientes a {
+    font-weight: bold;
+    color: rgb(134, 0, 0);
+}
+
+/* Estilo do título */
+.h2 {
+    color: white;
+}
+
+/* Estilo dos clientes adicionados dinamicamente */
+.cliente {
+    margin-bottom: 20px;
+}
+
+/* Estilo da div de clientes */
+#clientes {
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+.adclientes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registro {
+    text-align: center;
+}
+
+
+.selecao{
+    color: white;
+    background-color: #5A5697;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+}
+
+.qrcode{
+    height: 200px;
+}
+
+.body-pag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.confirmacao-pagamento{
+    text-align: center;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    align-items: center;
+}
+
+h1{
+    color: white;
+
+}
+
+h2{
+    color: white;
+}
+
+center{
+    color: white;
+}
+
+.body-cliente{
+    text-align: center;
+}
+
+h4{
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+.lista-codigos a{
+    color: red;
+}
+
+.images{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    padding: 0;
+}
+
+.images img{
+    width: auto;
+    max-width: 480px;
+    border-radius: 30px;
+    min-width: 290px;
+    margin: 30px;
+}
+
+@media only screen and (min-width: 990px) {
+    .images{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .images img{
+        min-width: 260px;
+    }
+    }
